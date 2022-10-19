@@ -1,0 +1,84 @@
+* {
+  color: #787878;
+}
+
+/* Table styling */
+#movies-container table {
+  margin-top: 5px, 2px, 2px, 5px;
+  border-spacing: 0;
+}
+
+#movies-container table th {
+  padding: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  background-color: #9ed460;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+#movies-container table tbody tr:hover {
+  cursor: pointer;
+  background-color: #9ed460 !important;
+}
+
+#movies-container table tbody tr {
+  text-align: center;
+  border-bottom: 1px solid #414141;
+  background-color: #353535;
+  height: 50px;
+  width: 200px;
+}
+
+/* Modal window styling */
+.modal {
+  position: absolute;
+  height: 100%;
+}
+
+.modal .modal-content {
+  border: 1px solid rgb(46, 44, 44);
+  background-color: #4b4a4a;
+  border: 1px solid #9ed460;
+}
+
+.modal .modal-content .modal-header {
+  text-align: center;
+  border: none;
+}
+
+.modal .modal-content .modal-header h5 {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  color: #9ed460;
+}
+
+.modal .modal-content .modal-header .btn-close {
+  width: 20px;
+  height: 10px;
+}
+
+.modal .modal-content .modal-body {
+  display: inline-grid;
+}
+
+.modal .modal-content .modal-body form label {
+  color: #9ed460;
+}
+
+.modal .modal-content .modal-body form input {
+  float: right;
+  background-color: #9ed460;
+}
+.modal .modal-content .modal-header .close,
+.modal .modal-content .modal-footer .btn {
+  background-color: #9ed460;
+  border: none;
+  color: #414141;
+}
